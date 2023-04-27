@@ -1,13 +1,13 @@
 # Distributed Computing Systems Project
 
-First folder ```Experimental Analysis\``` contains visualization and ```visualizing\``` folder contains analysis
+The folder ```Experimental Analysis\``` contains visualization and the folder ```visualizing\``` contains analysis
 
 ### Visualizing 
 
-input file gets a graph
-    in first-line gets the number of nodes(n) and number edges(m)
+The input file gets a graph
+    First-line takes the number of nodes (n) and number edges (m) separeted with a space.
     next m lines are edges from the first node to the second node 
-    Note: I assume that nodes are between [0,n-1]
+    Note: Nodes are labeled between [0,n-1]
 then by running run.bat, you will see the visualization
 
 An edge becomes blue when in yo-down a source node sends a message to its target.
